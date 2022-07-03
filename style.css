@@ -1,0 +1,69 @@
+h2 {
+    color: blueviolet;
+    background-color: burlywood;
+    padding: 20px;
+    margin-top: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#age_calcu {
+    border: 2px solid red;
+    width: 500px;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    height: 400px;
+    background-color: azure;
+    margin-top: 36px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+input {
+    width: 64px;
+    color: rgb(13, 14, 15);
+    background-color: rgb(255, 187, 0);
+    font-size: 20px;
+    border: rgb(255, 187, 0);
+}
+
+.b-year {
+    width: 80px;
+}
+
+.submit {
+    width: 80px;
+    font-size: 20px;
+    margin-top: 44px;
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.submit:hover {
+    background-color: rgb(12, 231, 23);
+    color: white;
+    border: 1px solid rgb(12, 231, 23);
+    cursor: pointer;
+}
+
+.reset {
+    width: 60px;
+    font-size: 20px;
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.reset:hover {
+    background-color: rgb(250, 6, 6);
+    color: white;
+    border: 1px solid rgb(250, 6, 6);
+    cursor: pointer;
+}
+
+body {
+    background-color: red;
+}

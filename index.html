@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="age_calcu">
+        <h2>Age Calculator!!</h2>
+        <input type="text" name="birth" placeholder="dd" id="b-date" class="bdate">
+        <input type="text" name="birth" placeholder="mm" id="b-month" class="b-month">
+        <input type="text" name="birth" placeholder="year" id="b-year" class="b-year">
+        <div>
+            <h1>Years: <span class="years">0</span> Months: <span class="months">0</span> Days: <span class="days">0</span></h1>
+        </div>
+        <button type="submit" class="submit" onclick="dmy()">Submit</button>
+        <button type="submit" class="reset" onclick="reset()">Reset</button>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
